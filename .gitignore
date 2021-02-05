@@ -1,0 +1,58 @@
+blog-frontend/.DS_Store
+blog-frontend/node_modules
+blog-frontend/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+blog-frontend/npm-debug.log*
+blog-frontend/yarn-debug.log*
+blog-frontend/yarn-error.log*
+blog-frontend/pnpm-debug.log*
+
+# Editor directories and files
+.idea
+blog-frontend/.vscode
+blog-frontend/*.suo
+blog-frontend/*.ntvs*
+blog-frontend/*.njsproj
+blog-frontend/*.sln
+blog-frontend/*.sw?
+
+# compiled output
+blog-backend/dist
+blog-backend/node_modules
+
+# Logs
+blog-backend/logs
+blog-backend/*.log
+blog-backend/npm-debug.log*
+blog-backend/yarn-debug.log*
+blog-backend/yarn-error.log*
+blog-backend/lerna-debug.log*
+
+# OS
+blog-backend/.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+blog-backend/*.launch
+blog-backend/.settings/
+blog-backend/*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
